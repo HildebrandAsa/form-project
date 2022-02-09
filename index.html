@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <main class="main-section">
+    <form class="form-section">
+      <h1>Yogakurs</h1>
+      <h2>Anmäl dig nedan</h2>
+      <label for="name" class="label">Namn</label>
+      <input type="text" name="name" id="name" class="input"/>
+      <label for="number" class="label">Telefonnummer</label>
+      <input type="number" name="number" id="number" class="input"/>
+      <label for="email" class="label">Email</label>
+      <input type="email" name="email" id="email" class="input"/>
+      <label for="password" class="label">Välj ett lösenord för att kunna logga in</label>
+      <input type="password" name="password" id="password" class="input" />
+      <div class="select-section">
+        <label for="select" class="label">Välj vilken kurs du vill gå nedan</label>
+        <select name="cours" class="select" id="select">
+          <option value="monday">Nybörjare - måndagar kl 17.00-18.00</option>
+          <option value="wednesday">Fortsättning - onsdagar kl 20.00-21.00</option>
+          <option value="thursday">Fortsättning - torsdagar kl 17.30-18.30</option>
+          <option value="saturday">Nybörjare - lördagar kl 15.30-16.30</option>
+        </select>
+      </div>
+      <label class="label">Vill du lägg till något i din anmälan?</label>
+      <textarea name="message" cols="31" rows="5" class="textarea"></textarea>
+      <div class="checkbox-section">
+        <label class="label">
+          <input type="checkbox" class="checkbox" checked>
+          <div class="checkbox-info">Jag vill gärna ha nyhetsbrev, tack!</div>
+        </label>
+      </div>
+      
+      <button type="submit" class="button">Skicka</button>
+    </form>
+  </main>
+</body>
+</html>

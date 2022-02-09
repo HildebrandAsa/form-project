@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: rgb(43, 160, 150);
+  font-family: 'Sniglet', cursive;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(0, 183, 255);
+  margin: 20px 50px;
+  border-radius: 5px;
+  color: #0b0353;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+h2 {
+  margin: 10px 0 5px 0;
+}
+
+.input, .select {
+  display: flex;
+  width: 250px;
+  height: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: none;
+  color: #0b0353;
+  font-family: 'Sniglet', cursive;
+}
+
+.label {
+  margin-top: 15px;
+  display: flex;
+  width: 250px;
+  height: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.textarea {
+  border-radius: 5px;
+  border: none;
+  font-family: 'Sniglet', cursive;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.button {
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  color: #0b0353;
+  background-color: #ffffff;
+  font-family: 'Sniglet', cursive;
+  font-weight: 600;
+}
